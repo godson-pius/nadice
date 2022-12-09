@@ -15,7 +15,7 @@
                     </div>
                     <div class="footer-sidebar footer-2 col-xs-12 col-sm-12 col-md-4">
                         <div class="widget widget_mf-custom-menu">
-                            <h4 class="widget-title">Usefull Links</h4>
+                            <h4 class="widget-title">Useful Links</h4>
                             <div class="custom-menu-area">
                                 <div class="custom-menu custom-menu-1">
                                     <ul class="menu">
