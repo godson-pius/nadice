@@ -63,7 +63,7 @@
 							"to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">We deliver what you need, when you need it, and wherever you need it. </div>
 
                         <!-- LAYER NR. 3 -->
-                            <a class="tp-caption rev-btn rev-btn1" href="./services" id="slide-11-layer-3" data-x="['center','center','center','center']" data-hoffset="['-95','-95','-95','-81']" data-y="['top','top','top','top']" data-voffset="['425','450','550','400']" data-fontsize="['16','16','16','14']"
+                            <a class="tp-caption rev-btn rev-btn1 p-2" href="./services" id="slide-11-layer-3" data-x="['center','center','center','center']" data-hoffset="['-95','-95','-95','-81']" data-y="['top','top','top','top']" data-voffset="['425','450','550','400']" data-fontsize="['16','16','16','14']"
                             data-lineheight="['16','16','16','14']" data-letterspacing="['0','','','']" data-width="['160','160','160','120']" data-height="['55','55','55','36']" data-whitespace="nowrap" data-type="button" data-actions='' data-responsive_offset="on"
                             data-frames='[{"delay":1200,"speed":700,"text_c":"transparent","bg_c":"transparent",
 							"use_text_c":false,"use_bg_c":false,"frame":"0","from":"opacity:0;","to":"o:1;",
@@ -71,7 +71,7 @@
 							"use_bg_c":false,"text_c":"transparent","bg_c":"transparent","frame":"999",
 							"to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0",
 							"ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;",
-							"style":"c:rgb(37,37,37);bs:solid;bw:0 0 0 0;"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[20,20,20,12]" data-paddingright="[0,0,0,0]" data-paddingbottom="[19,19,19,10]" data-paddingleft="[0,0,0,0]">Current Price: ₦<?= number_format($current_price); ?> </a>
+							"style":"c:rgb(37,37,37);bs:solid;bw:0 0 0 0;"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[20,20,20,12]" data-paddingright="[0,0,0,0]" data-paddingbottom="[19,19,19,10]" data-paddingleft="[0,0,0,0]">Price: <b>₦<?= number_format($current_price); ?></b> </a>
 
                         <!-- LAYER NR. 4 -->
                         <a class="tp-caption rev-btn rev-btn2" href="./about" id="slide-11-layer-4" data-x="['center','center','center','center']" data-hoffset="['95','95','95','80']" data-y="['top','top','top','top']" data-voffset="['425','450','550','400']" data-fontsize="['16','16','16','14']"
