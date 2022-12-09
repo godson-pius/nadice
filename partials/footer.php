@@ -83,70 +83,13 @@
     <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
         <a href="#" class="close-canvas-mobile-panel">×</a>
         <ul class="menu">
-            <li class="current-menu-item menu-item-has-children"><a href="index.html" class="dropdown-toggle">Home</a>
-                <ul class="sub-menu">
-                    <li><a href="index.html">Home 1</a></li>
-                    <li><a href="home-page-2.html">Home 2</a></li>
-                    <li><a href="home-page-3.html">Home 3</a></li>
-                    <li><a href="home-page-4.html">Home 4</a></li>
-                    <li class="last-child"><a href="home-page-5.html">Home 5</a></li>
-                </ul>
+            <li><a href="./index" class="dropdown-toggle">Home</a>
             </li>
-            <li class="menu-item-has-children"><a href="" class="dropdown-toggle">Pages</a>
-                <ul class="sub-menu">
-                    <li><a href="about-us.html">About Company</a></li>
-                    <li><a href="pricing-table.html">Pricing Table</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="faqs.html">FAQ’s</a></li>
-                    <li class="last-child"><a href="404.html">404</a></li>
-                </ul>
-            </li>
-            <li class="menu-item-has-children"><a href="" class="dropdown-toggle">Market Sectors</a>
-                <ul class="sub-menu">
-                    <li><a href="market-sectors.html">All Market Sector</a></li>
-                    <li><a href="aero-space-services.html">Aero Space Services</a></li>
-                    <li><a href="automative-system.html">Automative System</a></li>
-                    <li><a href="construction-engineering.html">Construction & Engineering</a></li>
-                    <li><a href="power-and-energy.html">Power and Energy</a></li>
-                    <li><a href="railway-infrastructure.html">Railway Infrastructure</a></li>
-                    <li class="last-child"><a href="ship-building-industry.html">Ship Building Industry</a></li>
-                </ul>
-            </li>
-            <li class="menu-item-has-children"><a href="projects.html" class="dropdown-toggle">Projects</a>
-                <ul class="sub-menu">
-                    <li class="menu-item-has-children"><a href="#" class="dropdown-toggle">Projects With Space</a>
-                        <ul class="sub-menu">
-                            <li><a href="projects-space-2.html">2 Columns</a></li>
-                            <li><a href="projects.html">3 Columns</a></li>
-                            <li class="last-child"><a href="projects-space-4.html">4 Columns</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" class="dropdown-toggle">Projects Without Space</a>
-                        <ul class="sub-menu">
-                            <li><a href="projects-nospace-2.html">2 Columns</a></li>
-                            <li><a href="projects-nospace-3.html">3 Columns</a></li>
-                            <li class="last-child"><a href="projects-nospace-4.html">4 Columns</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" class="dropdown-toggle">Projects Modern</a>
-                        <ul class="sub-menu">
-                            <li><a href="projects-modern-2.html">2 Columns</a></li>
-                            <li><a href="projects-modern-3.html">3 Columns</a></li>
-                            <li class="last-child"><a href="projects-modern-4.html">4 Columns</a></li>
-                        </ul>
-                    </li>
-                    <li class="last-child"><a href="single-projects.html">Single Project</a></li>
-                </ul>
-            </li>
-            <li class="menu-item-has-children"><a href="" class="dropdown-toggle">News</a>
-                <ul class="sub-menu">
-                    <li><a href="blogs.html">News Default</a></li>
-                    <li><a href="blogs-sidebar.html">News With Sidebar</a></li>
-                    <li class="last-child"><a href="blog-single.html">News Single Post</a></li>
-                </ul>
-            </li>
-            <li class="menu-item-has-children"><a href="" class="dropdown-toggle">Shop</a>
+            <li><a href="./services" class="dropdown-toggle">Services</a></li>
+            <li><a href="./about" class="dropdown-toggle">About Us</a></li>
+            <li><a href="./why-choose-us" class="dropdown-toggle">Why Choose Us</a></li>
+            <li><a href="./contact" class="dropdown-toggle">Contact</a></li>
+            <!-- <li class="menu-item-has-children"><a href="" class="dropdown-toggle">Shop</a>
                 <ul class="sub-menu">
                     <li><a href="shop.html">Shop Page</a></li>
                     <li><a href="cart.html">Shopping Cart</a></li>
@@ -154,14 +97,9 @@
                     <li><a href="checkout.html">Checkout</a></li>
                     <li class="last-child"><a href="my-account.html">My account</a></li>
                 </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
+            </li> -->
             <li class="extra-menu-item menu-item-search last-child">
-                <a href="#" class="toggle-search"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <form class="search-form">
-                    <input class="search-field" placeholder="Search..." value="" name="s" type="search">
-                    <input class="search-submit" value="Search" type="submit">
-                </form>
+                <a href="./index#request" class="btn btn-warning">Make Request</a>
             </li>
 
         </ul>
