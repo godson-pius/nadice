@@ -53,7 +53,7 @@ Nadice Oil & Gas Ltd, was born out of curiosity to bridge the overdue gap betwee
                                 <div class="textwidget">
                                     <div class="download">
                                         <div class="item-download">
-                                            <a href="#" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download Brochure.pdf</a>
+                                            <a href="./assets/docs/NADIC OIL AND GAS BRONCHURE.pdf" download target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download Brochure.pdf</a>
                                         </div>
                                     </div>
                                 </div>
