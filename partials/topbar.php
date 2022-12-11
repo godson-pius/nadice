@@ -20,16 +20,6 @@
                         <li class="email"><i class="flaticon-letter"></i>support@nadiceoilltd</li>
                     </ul>
 
-                    <ul id="cargohub-office-2" class="office-2 topbar-office">
-                        <li class="time"><i class="flaticon-arrow"></i>10 B, Factory St, New york 11024</li>
-                        <li class="phone"><i class="flaticon-tool"></i>Call Us: +(321) 45 678 333</li>
-                    </ul>
-
-                    <ul id="cargohub-office-3" class="office-3 topbar-office">
-                        <li class="time"><i class="flaticon-arrow"></i>05 A, Factory St, Houston 12022</li>
-                        <li class="phone"><i class="flaticon-tool"></i>Call Us: +(321) 45 678 456</li>
-                    </ul>
-
                 </div>
             </div>
         </div>
