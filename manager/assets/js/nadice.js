@@ -111,3 +111,43 @@ if (document.querySelector('#deleteAllMessage')) {
         }
     }
 }
+
+if (document.querySelector('#deleteTeam')) {
+    document.querySelectorAll('#deleteTeam').forEach((el) => {
+        el.onclick = () => {
+            const id = el.dataset.id
+
+            const conf = confirm('Are you sure you want to delete team member?');
+            if (conf) {
+                fetch(`api/app.php?delete_team=true`).then(e => e).then(e => e.text()).then(e => {
+                    if (e === "true") {
+                        showNotification('Team member have been deleted')
+                        window.location.reload()
+                    } else {
+                        alert("Failed to delete team member! Try again")
+                    }
+                })
+            }
+        }
+    })
+}
+
+if (document.querySelector('#deletePartner')) {
+    document.querySelectorAll('#deletePartner').forEach((el) => {
+        el.onclick = () => {
+            const id = el.dataset.id
+
+            const conf = confirm('Are you sure you want to delete partner?');
+            if (conf) {
+                fetch(`api/app.php?delete-partner=true`).then(e => e).then(e => e.text()).then(e => {
+                    if (e === "true") {
+                        showNotification('Partner have been deleted')
+                        window.location.reload()
+                    } else {
+                        alert("Failed to delete partner! Try again")
+                    }
+                })
+            }
+        }
+    })
+}

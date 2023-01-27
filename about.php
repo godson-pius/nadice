@@ -124,76 +124,35 @@
 
 
         <!-- our Team-->
-        <!-- <div class="ourteam">
+         <div class="ourteam">
             <div class="container">
                 <div class="mf-section-title text-left dark large-size">
                     <h2>Meet Our Team</h2>
                 </div>
                 <div class="mf-team team-carousel ">
                     <div class="team-list team-slide">
-                        <div class="team-member ">
-                            <div class="team-header">
-                                <img class="" src="images/team/team1.jpg" width="265" height="220" alt="team1" title="team1" />
-                                <ul class="team-social">
-                                    <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.skype.com/" target="_blank"><i class="fa fa-skype"></i></a></li>
-                                </ul>
+
+                        <?php
+                            if ($teams) {
+                            foreach ($teams as $team) {
+                            extract($team); ?>
+
+                            <div class="team-member ">
+                                <div class="team-header">
+                                    <div style="width: 265px; height: 220px; background-color:yellow; background-image: url(./images/teams/<?= $image; ?>); background-position: center; background-size: cover; background-repeat: no-repeat; "></div>
+                                </div>
+                                <div class="team-info">
+                                    <h4 class="name"><?= $fullname; ?></h4><span class="job"><?= $role; ?></span>
+                                </div>
                             </div>
-                            <div class="team-info">
-                                <h4 class="name">Vena Georgeyo</h4><span class="job">Founder</span></div>
-                        </div>
-                        <div class="team-member ">
-                            <div class="team-header"><img class="" src="images/team/team2.jpg" width="265" height="220" alt="team2" title="team2" />
-                                <ul class="team-social">
-                                    <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.skype.com/" target="_blank"><i class="fa fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-info">
-                                <h4 class="name">Johny Zabrila</h4><span class="job">Engineer</span></div>
-                        </div>
-                        <div class="team-member ">
-                            <div class="team-header"><img class="" src="images/team/team3.jpg" width="265" height="220" alt="team3" title="team3" />
-                                <ul class="team-social">
-                                    <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.skype.com/" target="_blank"><i class="fa fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-info">
-                                <h4 class="name">Philil Burphly</h4><span class="job">HR Manager</span></div>
-                        </div>
-                        <div class="team-member ">
-                            <div class="team-header"><img class="" src="images/team/team4.jpg" width="265" height="220" alt="team4" title="team4" />
-                                <ul class="team-social">
-                                    <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.skype.com/" target="_blank"><i class="fa fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-info">
-                                <h4 class="name">Michal Wincent</h4><span class="job">President</span></div>
-                        </div>
-                        <div class="team-member ">
-                            <div class="team-header"><img class="" src="images/team/team1.jpg" width="265" height="220" alt="team1" title="team1" />
-                                <ul class="team-social">
-                                    <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.skype.com/" target="_blank"><i class="fa fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-info">
-                                <h4 class="name">Vena Georgeyo</h4><span class="job">Founder</span>
-                            </div>
-                        </div>
+
+                        <?php } } ?>
                     </div>
                 </div>
                 <div class="teambtminfo">We’re always looking for talented Engineers, creative directors and anyone has a
-                    <br> passion for the Railway Infrastructure <span class="main-color">join our team.</span></div>
+                    <br> passion for the work space <span class="main-color">join our team.</span></div>
             </div>
-        </div> -->
+        </div>
         <!-- our Team end-->
 
         <!-- footer -->

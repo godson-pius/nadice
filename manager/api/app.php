@@ -68,3 +68,33 @@ if (isset($_GET['deleteallmessage'])) {
         echo false;
     }
 }
+
+
+//for teams=============================
+if (isset($_GET['delete_team'])) {
+    $id = $_GET['delete_team'];
+
+    $sql = "DELETE FROM teams WHERE team_id = $id";
+
+    $result = VALIDATE_QUERY($sql);
+    if ($result === true) {
+        echo "true";
+    } else {
+        echo false;
+    }
+}
+
+
+//for partners =============================
+if (isset($_GET['delete-partner'])) {
+    $id = $_GET['delete-partner'];
+
+    $sql = "DELETE FROM partners WHERE partner_id = $id";
+
+    $result = VALIDATE_QUERY($sql);
+    if ($result === true) {
+        echo "true";
+    } else {
+        echo false;
+    }
+}

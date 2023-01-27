@@ -333,30 +333,29 @@
 
 
         <!-- our partener -->
-        <!-- <div class="partener-1">
+       <div class="partener-1">
             <div class="container">
                 <div class="text-center partenertest margbtm40">We work with our partners to provide project perfection, <span class="main-color">join with our parnership.</span></div>
                 <div class="mf-partner clearfix carousel-type">
                     <div class="list-item partner-slide">
+
+                        <?php
+                            if ($partners) {
+                            foreach ($partners as $partner) {
+                            extract($partner); ?>
+
                         <div class="partner-item ">
-                            <a href="#" target="_self"><img width="218" height="110" src="images/partener/partner5-1.png" alt="" /></a>
+                            <a href="<?= $url; ?>" target="_blank">
+                                <div style="width: 218px; height: 110px; background-color:yellow; background-image: url(./images/partners/<?= $logo; ?>); background-position: center; background-size: cover; background-repeat: no-repeat; "></div>
+                            </a>
                         </div>
-                        <div class="partner-item ">
-                            <a href="#" target="_self"><img width="218" height="110" src="images/partener/partner5-1.png" alt="" /></a>
-                        </div>
-                        <div class="partner-item ">
-                            <a href="#" target="_self"><img width="218" height="110" src="images/partener/partner5-1.png" alt="" /></a>
-                        </div>
-                        <div class="partner-item ">
-                            <a href="#" target="_self"><img width="218" height="110" src="images/partener/partner5-1.png" alt="" /></a>
-                        </div>
-                        <div class="partner-item ">
-                            <a href="#" target="_self"><img width="218" height="110" src="images/partener/partner5-1.png" alt="" /></a>
-                        </div>
+
+                        <?php } } ?>
+
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- our partener end -->
 
         <!-- footer -->

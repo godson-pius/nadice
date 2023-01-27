@@ -1,6 +1,12 @@
 <?php
     require_once 'manager/prepared/prepared.php';
 
+// For all teams - Teams page
+$teams = EXECUTE_QUERY(SELECT_ALL("teams", "team_id"));
+
+// For all partners - Index page
+$partners = EXECUTE_QUERY(SELECT_ALL("partners", "partner_id"));
+
     // For Price - Header
     $res = EXECUTE_QUERY(SELECT_WHERE("price", "price_id", 1));
     foreach ($res as $price) {

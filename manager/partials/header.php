@@ -15,6 +15,12 @@ $request_sidebars = EXECUTE_QUERY(SELECT_ALL_LIMIT("requests", "request_id", 0, 
 // For Recent Requests - Index page
 $requests = EXECUTE_QUERY(SELECT_ALL("requests", "request_id"));
 
+// For all teams - Teams page
+$teams = EXECUTE_QUERY(SELECT_ALL("teams", "team_id"));
+
+// For all partners - Index page
+$partners = EXECUTE_QUERY(SELECT_ALL("partners", "partner_id"));
+
 // fOR Pending Requests - Pending-requests page
 $pending_requests = EXECUTE_QUERY(SELECT_WHERE_ORDER("requests", "status", "0", "request_id", "DESC"));
 
