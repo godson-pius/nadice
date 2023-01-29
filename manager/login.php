@@ -1,8 +1,6 @@
 <?php 
   require_once 'prepared/prepared.php';
 
-  echo ENCRYPT('password');
-
   if (isset($_POST['login_btn'])) {
     $email = CHECK_INPUT(SANITIZE($_POST['email']));
     $tmp_password = CHECK_INPUT(SANITIZE($_POST['password']));
