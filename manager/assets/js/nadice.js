@@ -139,7 +139,7 @@ if (document.querySelector('#deletePartner')) {
 
             const conf = confirm('Are you sure you want to delete partner?');
             if (conf) {
-                fetch(`api/app.php?delete-partner=true`).then(e => e).then(e => e.text()).then(e => {
+                fetch(`api/app.php?delete-partner=${id}`).then(e => e).then(e => e.text()).then(e => {
                     if (e === "true") {
                         showNotification('Partner have been deleted')
                         window.location.reload()
