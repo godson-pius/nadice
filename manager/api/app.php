@@ -89,7 +89,7 @@ if (isset($_GET['delete_team'])) {
 if (isset($_GET['delete-partner'])) {
     $id = $_GET['delete-partner'];
 
-    $sql = "DELETE FROM partners WHERE partner_id = '$id'";
+    $sql = "DELETE FROM partners WHERE partner_id = $id";
 
     $result = VALIDATE_QUERY($sql);
     if ($result === true) {
